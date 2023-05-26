@@ -1,0 +1,28 @@
+{
+  "name": "fundriseup",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "app:dev": "ts-node src/app.mts",
+    "sync:dev": "ts-node src/sync.mts",
+    "app": "node build/app.mjs",
+    "sync": "node build/sync.mjs",
+    "build": "npx tsc"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.1",
+    "prettier": "2.8.8",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.0.1",
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.5.0"
+  }
+}
